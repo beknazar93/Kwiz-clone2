@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6n%f*9ip%qhioguf!rg7f&0e@m6nqfv+%(x1wl)z1a3h38z5=1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kwiz-clone2.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
