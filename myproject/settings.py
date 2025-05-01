@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-6n%f*9ip%qhioguf!rg7f&0e@m6nqfv+%(x1wl)z1a3h38z5=1
 DEBUG = True
 
 ALLOWED_HOSTS = ['kwiz-clone2.onrender.com', 'localhost', '127.0.0.1']
-
+STATIC_URL = "/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 # Application definition
 
